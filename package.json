@@ -4,7 +4,8 @@
   "description": "curso de node",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:1": "node --watch express/express.mjs"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   },
   "homepage": "https://github.com/barriox/nodeJS#readme",
   "dependencies": {
+    "express": "4.19.2",
     "picocolors": "^1.0.0"
   }
 }
